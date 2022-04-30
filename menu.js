@@ -4,9 +4,9 @@ $(document).ready(function () {
 		var target = $(this).attr('href');/* зберігаємо значення атрибута href */
 		$('html, body').animate({
 			scrollTop: $(target).offset().top - offset /* віднімаємо висоту меню */
-		})
-	}, 500);/* час анімації */
-	$('.nav a [href^="#"]').removeClass('active');/* видаляємо клас active у всіх пунктах меню */
-	$(this).addClass('active');/* добавляємо клас active активній силці */
-	return false;
-})
+		}, 500);/* час анімації */
+		$('.nav a [href^="#"]').removeClass('active');/* видаляємо клас active у всіх пунктах меню */
+		$(this).addClass('active');/* добавляємо клас active активній силці */
+		return false;
+	});
+});
