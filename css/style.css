@@ -1,13 +1,26 @@
 body{
 	background: rgb(33, 230, 112);
+	max-width: 1840px;
+	max-height: 100vh;
+	margin: 0 auto;
+	padding: 50px;
 }
 p{
 	color: rgb(160, 140, 27);
 	font-size: 25px;
+	text-align: center;
 }
 p:nth-of-type(2){
 	color: rgb(6, 100, 183);
 }
-h2{
+p:nth-of-type(1){
+	color: rgb(36, 43, 50);
+	font-size: 100px;
+	border-bottom: ridge 7px blueviolet;
+}
+h2, h3{
 	font-size: 50px;
+	border: 3px solid rgb(195, 13, 13);
+	display: inline-block;
+	padding: 15px;
 }
